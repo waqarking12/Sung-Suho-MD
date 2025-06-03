@@ -76,7 +76,7 @@ _*🌟 Reply with the Number you want to select*_
 
 📊 **Total Commands in MAIN:** 7  
  
-> 💡 **𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 Your Botname**  
+> 💡 **𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 SungSu-ho-MD**  
 
 `);
 
@@ -95,7 +95,7 @@ _*🌟 Reply with the Number you want to select*_
 
 📊 **Total Commands in SEARCH:** 2
 
-> 💡 **𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 your Botname**
+> 💡 **𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 SungSu-ho-MD**
 `);
                         break;
                     case '3':               
@@ -121,7 +121,7 @@ _*🌟 Reply with the Number you want to select*_
 
 📊 **Total Commands in DOWNLOAD:** 12
  
-> 💡 **𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 your Botname**  
+> 💡 **𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 SungSu-ho-MD**  
 
 `);
                     
@@ -158,7 +158,7 @@ _*🌟 Reply with the Number you want to select*_
 📊 **Total Commands in GROUP:** 20  
 
 
-> 💡 **𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 Your Botname**  
+> 💡 **𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 SungSu-ho-MD**  
 `);
                     break;
                     case '5':               
@@ -182,7 +182,7 @@ _*🌟 Reply with the Number you want to select*_
 📊 **Total Commands in Owner:** 9
 
  
-> 💡 **𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 your Botname**  
+> 💡 **𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 SungSu-ho-MD**  
 
 `);
                     break;
@@ -208,7 +208,7 @@ _*🌟 Reply with the Number you want to select*_
 📊 **Total Commands in Owner:** 10
 
  
-> 💡 **𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 your Botname**  
+> 💡 **𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 SungSu-ho-MD**  
 
 `);
                        
