@@ -4,9 +4,9 @@
   "description": "A WhatsApp Bot Created By Mr SungSu",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name lite",
-    "stop": "pm2 stop lite",
-    "restart": "pm2 restart lite"
+    "start": "pm2 start index.js --deep-monitoring --attach --name SungSu-ho",
+    "stop": "pm2 stop SungSu-ho",
+    "restart": "pm2 restart SungSu-ho"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "npm:@fizzxydev/baileys-pro@8.5.12",
