@@ -1,15 +1,16 @@
+
 {
-  "name": "SungSu-ho-MD",
+  "name": "suho-md",
   "version": "0.0.5",
-  "description": "A WhatsApp Bot Created By Mr SungSu",
+  "description": "A WhatsApp Bot Created By Mr Sung",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name SungSu-ho",
-    "stop": "pm2 stop SungSu-ho",
-    "restart": "pm2 restart SungSu-ho"
+    "start": "pm2 start index.js --deep-monitoring --attach --name lite",
+    "stop": "pm2 stop lite",
+    "restart": "pm2 restart lite"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "npm:@fizzxydev/baileys-pro@8.5.12",
+    "@whiskeysockets/baileys": "npm:asitha-new-v99",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@dark-yasiya/yt-dl.js": "1.0.5",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
@@ -18,6 +19,7 @@
     "pino": "^7.0.5",
     "pm2": "^6.0.5",
     "util": "^0.12.4",
+    "jimp": "^0.16.1",
     "express": "latest",
     "moment-timezone": "^0.5.45",
     "axios": "^1.2.5",
