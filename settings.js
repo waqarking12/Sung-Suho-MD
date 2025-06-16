@@ -130,7 +130,7 @@ module.exports = {
     version: process.env.version || "0.0.5",
 
     START_MSG: process.env.START_MSG || 
-`*Hᴇʟʟᴏ ᴛʜᴇʀᴇ ʙᴏᴛ ᴄᴏɴɴᴇᴄᴛᴇᴅ! 👋🏻* 
+`*Hᴇʟʟᴏ ᴛʜᴇʀᴇ ＳＵＨＯ ᴄᴏɴɴᴇᴄᴛᴇᴅ! 👋🏻* 
 
 - *ʏᴏᴜʀ ʙᴏᴛ ᴘʀᴇғɪx: ➡️[ . ]*
 > - ʏᴏᴜ ᴄᴀɴ ᴄʜᴀɴɢᴇ ᴜʀ ᴘʀᴇғɪx ᴜsɪɴɢ ᴛʜᴇ .ᴘʀᴇғɪx ᴄᴏᴍᴍᴀɴᴅ
