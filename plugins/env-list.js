@@ -51,9 +51,9 @@ lite({
         const settingsMessage = `
 ╭━━━〔 *SUHO MD SETTINGS* 〕━━━┈⊷
 ┃ *📌 Current Configurations:*
-┃──────────────────────
+┃        ─────────
 ${generateSettingsList()}
-╰━━━━━━━━━━━━━━━━━━━━┈⊷
+╰━━━━━━━━━━┈⊷
 
 🔗 *Description:* ${config.DESCRIPTION || 'No description available'}
 
@@ -69,7 +69,7 @@ ${generateSettingsList()}
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363398430045533@newsletter',
+                    newsletterJid: '120363402507750390@newsletter',
                     newsletterName: "Sung Suho MD",
                     serverMessageId: 143
                 }

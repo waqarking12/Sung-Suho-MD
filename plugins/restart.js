@@ -1,24 +1,24 @@
-const { lite } = require("../lite");  
-const { sleep } = require("../lib/functions");  
+const { lite } = require("../lite");
+const { sleep } = require("../lib/functions");
+const fs = require("fs");
+const path = require("path");
 
-lite({  
-    pattern: "restart",  
-    desc: "Restart Sung Suho",  
-    category: "owner",  
-    filename: __filename  
-},  
-async (conn, mek, m, { reply, isCreator }) => {  
-    try {  
-        if (!isCreator) {  
-            return reply("Only the bot owner can use this command.");  
-        }  
+lite({
+  pattern: "restart",
+  desc: "Restart SUHO-XD",
+  react: "🔄",
+  category: "owner",
+  filename: __filename
+}, async (conn, mek, m, { reply, isCreator }) => {
+  if (!isCreator) return reply("Only the bot owner can use this command.");
 
-        const { exec } = require("child_process");  
-        reply("Restarting...");  
-        await sleep(1500);  
-        exec("pm2 restart all");  
-    } catch (e) {  
-        console.error(e);  
-        reply(`${e}`);  
-    }  
+  const markerPath = path.join(__dirname, "../data/restart_notify.json");
+  fs.writeFileSync(markerPath, JSON.stringify({
+    chat: m.chat,
+    sender: m.sender
+  }));
+
+  await reply("♻️ Restarting SUHO-XD...\nYou'll be notified when it comes back online.");
+  await sleep(1000);
+  require("child_process").exec("pm2 restart all");
 });
