@@ -48,7 +48,7 @@ module.exports = {
     MENTION_REPLY: process.env.MENTION_REPLY || "false",
     // make true if want auto voice reply if someone mention you 
 
-    MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/vcofni.jpg",
+    MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/eeeypw.jpg",
     // add custom menu and mention reply image url
 
     ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/vcofni.jpg",
@@ -79,7 +79,7 @@ module.exports = {
     OWNER_NUMBER: process.env.OWNER_NUMBER || "27813374457",
     // add your bot owner number
 
-    OWNER_NAME: process.env.OWNER_NAME || "ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ",
+    OWNER_NAME: process.env.OWNER_NAME || "ᴍʀ sᴜɴɢ",
     // add bot owner name
 
     DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ sᴜɴɢ sᴜʜᴏ*",
@@ -127,16 +127,7 @@ module.exports = {
     AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
     // make it true for auto recording 
 
-    version: process.env.version || "0.0.5",
+    version: process.env.version || "0.0.6"
 
-    START_MSG: process.env.START_MSG || 
-`*Hᴇʟʟᴏ ᴛʜᴇʀᴇ ＳＵＨＯ ᴄᴏɴɴᴇᴄᴛᴇᴅ! 👋🏻* 
-
-- *ʏᴏᴜʀ ʙᴏᴛ ᴘʀᴇғɪx: ➡️[ . ]*
-> - ʏᴏᴜ ᴄᴀɴ ᴄʜᴀɴɢᴇ ᴜʀ ᴘʀᴇғɪx ᴜsɪɴɢ ᴛʜᴇ .ᴘʀᴇғɪx ᴄᴏᴍᴍᴀɴᴅ
-
-> ᴅᴏɴᴛ ғᴏʀɢᴇᴛ ᴛᴏ sʜᴀʀᴇ, sᴛᴀʀ & ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ ⬇️ 
-https://github.com/NaCkS-ai/SungSu-ho-MD
-
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ sᴜɴɢ`
+    
 };
