@@ -1,6 +1,7 @@
 const axios = require('axios');
 const os = require('os');
 const fs = require('fs');
+const config = require('../settings'); 
 const path = require('path');
 const { lite, commands } = require('../lite');
 const { runtime } = require('../lib/functions');
